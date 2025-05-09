@@ -26,10 +26,9 @@
 	background-repeat: no-repeat;
 }
 .divz {
-	background-color:#0C9;
-	width:100%;
-	height:80px;
-
+	background-color: #D1E6D2;
+	width: 100%;
+	height: 80px;
 }
 .div2 {
 	color: #000;
@@ -58,6 +57,23 @@
 	font-style: italic;
 	font-size: 24px;
 }
+.extradiv {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 24px;
+	color: #000;
+	text-decoration: none;
+	background-color: #DFEEE0;
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 1200px;
+	width: 100%;
+}
+.letrasarriba {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	color: #000;
+	text-decoration: none;
+}
 </style>
 </head>
 
@@ -65,11 +81,11 @@
 <div class="erikaa">
   <table width="80%" border="0" align="center">
   <tr>
-    <td width="114"><img src="lavitlogo.png" width="100px
-   " height="100px" alt="logo"></td>
-    <td width="370">LAVIT menu</td>
-    <td width="367"><div align="center">promociones</div></td>
-    <td width="276"><div align="center"><a href="https://www.google.com/maps/@30.7150184,-112.1552883,3a,75y,183.25h,73.38t/data=!3m7!1e1!3m5!1s_FOId0awrz_j_qPmOt_F1Q!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D16.615967564985795%26panoid%3D_FOId0awrz_j_qPmOt_F1Q%26yaw%3D183.25403002593714!7i16384!8i8192?hl=es&entry=ttu&g_ep=EgoyMDI1MDQwNy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"><img src="direccion.jpg" width="50px" height="50px" alt="logodireccion">ubicacion</a></div></td>
+    <td width="114"><a href="index.html"><img src="lavitlogo.png" width="100px
+   " height="100px" alt="logo"></a></td>
+    <td width="370" class="letrasarriba">LAVIT menu</td>
+    <td width="367"><div align="center"><a href="promociones.html" class="letrasarriba">promociones</a></div></td>
+    <td width="276"><div align="center"><a href="https://www.google.com/maps/@30.7150184,-112.1552883,3a,75y,183.25h,73.38t/data=!3m7!1e1!3m5!1s_FOId0awrz_j_qPmOt_F1Q!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D16.615967564985795%26panoid%3D_FOId0awrz_j_qPmOt_F1Q%26yaw%3D183.25403002593714!7i16384!8i8192?hl=es&entry=ttu&g_ep=EgoyMDI1MDQwNy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"><img src="direccion.jpg" width="50px" height="50px" alt="logodireccion"><span class="letrasarriba">ubicacion</span></a></div></td>
     <td width="186"><div align="right"><a href="https://www.instagram.com/lavitcaborca/"><img src="logoinsta.jpg" width="50px" height="50px" alt="logoinstagram"></a><a href="https://www.facebook.com/people/LAVIT/61565026551319/?mibextid=LQQJ4d"><img src="logofacebook.png" width="50px" height="50px" alt="logofacebook"></a></div></td>
   </tr>
 </table>
@@ -85,21 +101,40 @@
 </table>
 </div>
 <p>&nbsp;</p>
-
-<table width="80%" border="0" align="center">
-  <tr class="tituloscatalogos">
-    <td><div align="right">Desayunos</div></td>
-    <td><div align="center">Comidas</div></td>
-    <td><div align="center">Especialidades</div></td>
-    <td><div align="left">Postres</div></td>
-  </tr>
-  <tr>
-    <td><div align="right"><img src="chilaquileseditados.jpg" width="180"  alt="imagen1"></div></td>
-    <td><div align="center"><img src="ensaladaeditada.jpg" width="180"  alt="imagen2"></div></td>
-    <td><div align="center"><img src="sandwicheditado.jpg" width="180"  alt="imagen3"></div></td>
-    <td><div align="left"><img src="avenaoalgo.jpg" width="180"  alt="imagen4"></div></td>
-  </tr>
-</table>
+<div class="extradiv">
+  <table width="100%" border="0">
+    <tr>
+      <td><div align="center"><img src="chilaquileseditados.jpg" width="350" alt="chilaquiles"></div></td>
+      <td><div align="center"><img src="TOSTADA.jpg" width="350" alt="tostada"></div></td>
+      <td><div align="center"><img src="warp.jpg" width="350" alt="warp"></div></td>
+    </tr>
+    <tr>
+      <td><div align="center">Chilaquiles</div></td>
+      <td><div align="center">Toast</div></td>
+      <td><div align="center">Warp</div></td>
+    </tr>
+    <tr>
+      <td><div align="center"><img src="avena.jpg" width="350" alt="avena"></div></td>
+      <td><div align="center"><img src="dosvasos.jpg" width="350" alt="jugo"></div></td>
+      <td><div align="center"><img src="quinoa.jpg" width="350" alt="quinoa"></div></td>
+    </tr>
+    <tr>
+      <td><div align="center">Avena</div></td>
+      <td><div align="center">Jugos</div></td>
+      <td><div align="center">Quinoa</div></td>
+    </tr>
+    <tr>
+      <td><div align="center"><img src="taco.jpg" width="350" alt="taco"></div></td>
+      <td><div align="center"><img src="sandwicheditado.jpg" width="350" alt="sandwich"></div></td>
+      <td><div align="center"><img src="ensaladaeditada.jpg" width="350" alt="ensalada"></div></td>
+    </tr>
+    <tr>
+      <td><div align="center">Taco</div></td>
+      <td><div align="center">Sandwich</div></td>
+      <td><div align="center">Ensalada</div></td>
+    </tr>
+  </table>
+</div>
 <blockquote>
   <p>&nbsp;</p>
 </blockquote>
